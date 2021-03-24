@@ -6,6 +6,7 @@
  */
 
 import proxyAddr from 'proxy-addr'
+import Env from '@ioc:Adonis/Core/Env'
 import { LoggerConfigContract } from '@ioc:Adonis/Core/Logger'
 import { RequestConfigContract } from '@ioc:Adonis/Core/Request'
 import { ResponseConfigContract } from '@ioc:Adonis/Core/Response'
